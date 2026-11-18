@@ -33,8 +33,8 @@ It uses a user-provided wordlist to check whether a candidate password can open 
 ```text
 PDF-Password-Auditor/
 │
-├── pdf_password_auditor.py
-├── wordlist_generator.py
+├── passwordcracker.py
+├── wordlist.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -65,12 +65,16 @@ pip install -r requirements.txt
 Run the PDF auditing tool:
 
 ```bash
-python pdf_password_auditor.py
+python passwordcracker.py
 ```
 
-Provide:
-1. The path to your authorized test PDF.
-2. The path to your prepared password wordlist.
+Run the wordlist utility:
+
+```bash
+python wordlist.py
+```
+
+Provide the path to your authorized test PDF and your prepared password wordlist when prompted.
 
 The tool checks candidate passwords and reports whether a matching password is found.
 
@@ -103,7 +107,7 @@ The developer is not responsible for unauthorized use.
 
 Cybersecurity Student | Python | Ethical Hacking | Security Tools
 
-GitHub: https://github.com/victorjeevea
+GitHub: [victorjeevea](https://github.com/victorjeevea)
 
 ---
 
